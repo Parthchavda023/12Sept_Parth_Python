@@ -10,7 +10,7 @@ per=total/4
 print("Percenage=",per)
 
 if 70<=per:
-    print("Result= Dis")
+    print("Result= Dis.")
 elif 60<=per:
     print("Result=First Class")
 elif 50<=per:
