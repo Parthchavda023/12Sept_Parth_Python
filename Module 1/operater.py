@@ -2,7 +2,7 @@ print("\n========1=======\n")
 s=int(input("Enter First Number:"))
 p=int(input("Enter Second Number:"))
 
-print("Add:",s+p)
+print("Sum:",s+p)
 print("Sub:",s-p)
 print("Mul:",s*p)
 print("Div:",s/p)
@@ -23,6 +23,6 @@ print("P=",p)   #answer  p=p+12 :- 17=5+12
 print("\n========4=======\n")
 
 s-=10 
-print("S=",s)   #Answer  s=s-10 :- 15
+print("S=",s)   #Answer  s=s-10 ma S ni value 28 se tethi :- 18=28-10
 p-=10 
-print("P=",p)   #Answer  p=p-10
+print("P=",p)   #Answer  p=p-10 ma P ni value 17 se tethi :- 7=17-10

@@ -13,20 +13,22 @@ if firstnm.isalpha() and lastnm.isalpha():
             mn=input("Enter Your Mobile Number: +91 ")
 
             if mn.isdigit() and len(mn)==10:
-                    print("\n------Please Check your Details-----\n")
-                    print("First Name=",firstnm)
-                    print("Last Name=",lastnm)
-                    print("Username=",usnm)
-                    print("Password=",pas)
-                    print("Mobile Number=+91 ",mn)
-                    sm=input("Enter Your Details is true:Yes/No=")
+                print("\n-----Please Check your Details-----")
+                print("\nFirst Name=",firstnm)
+                print("Last Name=",lastnm)
+                print("Username=",usnm)
+                print("Password=",pas)
+                print("Mobile Number=+91 ",mn)
+                sm=input("Your Details is True Type: Yes / No= ")
 
-                    if sm=="Yes" or sm=="yes" or sm=="YES":
-                        print("\nYour Form has been successfully Submited...")
-                        print("Thank you!!!")
-                    else :
-                        print("\nPlease refres this page and try again...")
-                        print("Thank You!!!")
+                if sm=="yes" or sm=='Yes' or sm=='YES':
+                    print("\nYour Form has been successfully Submited...")
+                    print("Thank you!!!")
+                else :
+                    print("\nplease refresh this page and enter your detials again...")
+                    print("Thank you!!!")
+
+
             else :
                 print("Error, plz check your Mobile Number and try again...")
 
