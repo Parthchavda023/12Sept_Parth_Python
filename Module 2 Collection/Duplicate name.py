@@ -1,4 +1,4 @@
-p=int(input("Enter Nimber of range:"))
+p=int(input("Enter Number of range:"))
 nm=[]
 for i in range(p):
     name = input("Enter Name: ")
