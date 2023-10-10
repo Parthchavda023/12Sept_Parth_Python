@@ -6,9 +6,19 @@ unchanged."""
 
 p=input("Enter Sring:")
 
-if len(p)<3:
-    print(p)
-elif p[-3:]=='ing':
-    print(p+'ly')
-else :
-    print(p+'ing')
+#-------Nested Statement---------#
+if len(p)>2:
+    if p.endswith("ing"):
+        p += 'ly'
+    else:
+       p +='ing'
+
+print(p)
+
+#--------If else Statement-------#
+# if len(p)<3:
+#     print(p)
+# elif p[-3:]=='ing':
+#     print(p+'ly')
+# else :
+#     print(p+'ing')

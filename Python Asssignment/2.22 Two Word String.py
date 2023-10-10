@@ -2,7 +2,10 @@
 2 chars from a given a string. If the string length is less than 2, return
 instead of the empty string.'''
 
+
+
 p=input("Enter String:")
+
 if len(p)<2:
     print(p)
 else:

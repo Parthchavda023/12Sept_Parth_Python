@@ -2,7 +2,7 @@
 
 p=input("enter a name:")
 
-if(len(p)%4<=0):
-    print(p)
+if(len(p)%4==0):
+    print(p.reversed())
 else:
-    print(p[::-1])
+        print(p)
