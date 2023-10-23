@@ -1,17 +1,17 @@
 '''Write a Python script to concatenate following dictionaries to create a new one'''
 
 
-'''p={101:'Parth',102:'Sanjay'}
-s={103:'vipul',104:'Pankaj'}
-sp={}
+# p={101:'Parth',102:'Sanjay'}
+# s={103:'vipul',104:'Pankaj'}
+# sp={}
 
-print('Dic1:',p)
-print('Dic2',s)
+# print('Dic1:',p)
+# print('Dic2',s)
 
-for i in (p,s):
-    sp.update(i)
+# for i in (p,s):
+#     sp.update(i)
 
-print('New Dic:',sp)'''
+# print('New Dic:',sp)
 
 
 #----User Input-----#
@@ -36,7 +36,7 @@ for j in range(N):
 print('Dic1',p)
 print('Dic2=',s)
 
-# for k in (p,s):
-#     sp.update(k)
+for k in (p,s):
+    sp.update(k)
 
-print('New dic=',p+s) 
+print('New dic=',sp) 

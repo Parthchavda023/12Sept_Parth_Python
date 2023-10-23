@@ -2,7 +2,7 @@ import random
 
 # p=random.random()   # 0 to 1 only float value
 # p=random.randint(1,1000)   # je te range ni value
-# p=random.randrange(1111,9999,140)   #je te value te te range mate
+# p=random.randrange(1111,9999,140)   #je te value thi je te range mate
 
 # print(p)
 
