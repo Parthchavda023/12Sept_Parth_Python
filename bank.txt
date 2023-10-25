@@ -1,6 +1,5 @@
-Name          Rs.         Date/Time
-Sanjay        +500        05/04/'23,02:24
-Vipul         +1000       19/06/'23,12:04
-Sanjay        +150        02/07/'23,08:20
-Pankaj        -500        05/07/'23,01:19
-Vishal        +500        05/10/'23,02:56
+Name:Parth	RS.500	2023-10-25 18:47:56.286619-With UPI=chavdaparth022@oksbi
+Name:Parth	RS.5005,2023-10-25 18:49:54.381364-With Bank account number=123456
+Name:Sanjay	RS.600,2023-10-25 18:51:17.650973-With Bank account number=1234500
+Name:Parth	RS.600	2023-10-25 18:54:07.861935-With UPI=932855***@ybl
+Name:Vipul	RS.450	2023-10-25 18:57:02.839691-With UPI=93285591***@ybl

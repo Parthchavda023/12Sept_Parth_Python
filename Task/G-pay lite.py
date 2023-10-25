@@ -1,3 +1,4 @@
+
 def gpay():
     
     #----- login step
@@ -53,7 +54,7 @@ def gpay():
                                 op=int(input('Enter your option:'))
 
                                 if op==1:   #Bank Profile Details
-                                    print("Account Holder Name:-Mr. Parth Hasmukhbhai Chavda")
+                                    print("Account Holder Name:-Mr. Parth Chavda")
                                     print('Account Number:-12345678910')
                                     print('IFSC Code:- SBIN0124523')
                                     print('UPI ID:- 1234567890@xyz')
@@ -72,24 +73,44 @@ def gpay():
                                     tm=int(input('How do you want to transfer money?:'))
 
                                     if tm==1:   #Transfer Money to UPI
+                                        import datetime
+
+                                        dta=datetime.datetime.now()
                                         up=input('Enter UPI ID:')
                                         am=int(input('Enter Amout:'))
+                                        unm=str(input('Enter Name:'))
 
                                         while True:
                                             pin=int(input('Enter UPI Pin:'))
                                             if pin==2204:
                                                 print(f'{am}/- is successfuly Transfer.')
+                                                fl=open('bank.txt','a')
+                                                fl.write(f'Name:{unm}\tRS.{am}\t{dta}-With UPI={up}\n')
                                                 break   # UPI Pin:
                                             else:
                                                 print('Incorrect UPI PIN, Please Enter Correct PIN')
                                     
                                     elif tm==2: #Transfer Money to Bank Details
+                                       
                                         bn=int(input('Enter Bank Account Number:'))
                                         while True:
                                             en=int(input('Re-enter Bank Account Number:'))
                                             if bn==en:
                                                 ifsc=input('Enter IFSC code:')
                                                 nm=str(input('Enter Bank Holder Name:'))
+                                                tam=int(input('Enter Amount:'))
+                                                while True:
+                                                    import datetime
+                                                    dt=datetime.datetime.now()
+                                                    pn=int(input('Enter G-Pay Pin:'))
+                                                    if pn==2204:
+                                                        print(f'{tam}/- is successfuly Transfer')
+                                                        fl=open('bank.txt','a')
+                                                        fl.write(f'Name:{nm}\tRS.{tam},{dt}-With Bank account number={en}\n')
+                                                        break
+                                                    else:
+                                                        print('Enter Correct Pin')
+                                                        
                                                 break   #Re-enter Bank Account Number
                                             else:
                                                 print('Bank account number does not match')
