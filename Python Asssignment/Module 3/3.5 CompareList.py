@@ -1,4 +1,4 @@
-"""How will you compare two lists?"""
+"""How will you compare two lists? """
 
 # p=[10,20,30]
 # s=[10,30,20]
