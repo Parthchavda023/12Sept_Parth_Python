@@ -1,5 +1,6 @@
 '''
 open('FileName.txt'.'mode')
+
 mode:-
 1= 'r'  mode only file ne read krva 
 2= 'w'  mode file write krva (overwriting)
