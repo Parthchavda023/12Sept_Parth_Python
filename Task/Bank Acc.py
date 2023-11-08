@@ -1,4 +1,3 @@
-
 def opac():
     global acnum,nm,actyp
     import random
