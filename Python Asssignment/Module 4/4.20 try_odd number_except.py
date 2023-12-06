@@ -3,9 +3,10 @@
 
 try:
     p=int(input('Enter Number:'))
-    if p%2==0:
-        raise Exception
-    else:
+    if p%2!=0:
         print(p)
+    else :
+        raise Exception
+        
 except:
     print('Error...!')
