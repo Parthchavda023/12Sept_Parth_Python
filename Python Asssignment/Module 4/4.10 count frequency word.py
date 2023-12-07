@@ -15,8 +15,7 @@
 # print("The frequency of word in the File:-",word_count("std.txt"))
 
 
-
-# #===========================================================#
+# #==============================================================#
 # from typing import Counter
 # fl=open("std.txt",'r')
 
@@ -24,7 +23,7 @@
 # print(Counter(sp))
 
 
-#------User Input-------#
+#--------User Input---------#
 from typing import Counter
 
 fl=open("std2.txt",'w')
@@ -33,7 +32,6 @@ n=int(input("Enter Number of Range:"))
 for i in range(n):
     data=input("Enter File data:")
     fl.write(data +"\n")
-
 
 fl=open("std2.txt",'r')
 sp=fl.read().split()
