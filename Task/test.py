@@ -1,24 +1,34 @@
-# import turtle
-# turtle.bgcolor('black')
-
-# sp=turtle.Turtle()
-# sp.speed(25)
-# sp.pencolor('pink')
-# for i in range(400):
-#     sp.forward(i)
-#     sp.left(91)
+import sqlite3
 
 
-# #====================================#
+db_con = sqlite3.connect("task_table.db")
 
-import turtle
-p=turtle.Turtle()
-s=turtle.Screen()
-s.bgcolor('black')
-p.width(1)
-p.speed(50)
-color=('magenta','yellow','green','red')
-for i in range(500):
-    p.pencolor(color[i%4])
-    p.forward(i*2)
-    p.right(121)
+cr = db_con.cursor()
+
+'''---CREATE TABLE---'''
+
+tbl_crt = "create table schoolinfo(id integer primary key autoincrement, name text, marks integer, age integer, city text)"
+try:
+    db_con.execute(tbl_crt)
+    print("Table create successfully... !")
+except Exception as e:
+    print(e)
+
+
+'''---INSERT VALUE---'''
+
+n = int(input("Enter Number of student:-"))
+
+for i in range(n):
+    name = str(input("Enter Student Name:"))
+    marks = int(input("Enter Student Marks:"))
+    age = int(input("Enter Student Age:"))
+    city = str(input("Enter Student City Name:"))
+
+    ist_tbl = "insert into schoolinfo(name,marks,age,city) values("'{name}','{marks}','{age}','{city}'")"
+    try:
+        cr.execute(ist_tbl,(name,marks,age,city))
+        db_con.commit()
+        print("Value insert Successfully...!")
+    except Exception as e:
+        print(e)
