@@ -13,3 +13,6 @@ for i in p:
     len+=1
 
 print(len)
+
+# print(p)
+# print(len(p))

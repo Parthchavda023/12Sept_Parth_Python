@@ -1,11 +1,22 @@
-p=int(input("Enter number of Name:"))
-nm=[]
+'''Write a Python program to remove duplicates from a list'''
 
-for i in range(p):
-    name=input("Enter Name:")
-    if name in nm:
-        print("Dublicae Name...")
-    else:
-        nm.append(name)
-    
-print("Name=",nm)
+
+s=[1,2,1,3,4,2,5,6,10]
+
+if s not in s:
+    s.append()
+
+print(s)
+
+
+
+
+# s=[]
+
+# n=int(input("Enter Number of Range:-"))
+# for i in range(n):
+#     x=input("Enter Value:-")
+#     if x not in s:
+#         s.append(x)
+
+# print(s)

@@ -14,5 +14,5 @@
 #-----------user input-------#
 p=input('Enter String:')
 s=input("enter Sunstring:")
-count=p.count(s)
-print(count)
+sp=p.count(s)
+print(sp)
