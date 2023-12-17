@@ -11,7 +11,7 @@ p = [{'item': 'item1', 'amount': 400},{'item': 'item2', 'amount': 300},{'item': 
 
 s = Counter()
 
-for d in p:
-    s[d['item']] += d['amount']
+for i in p:
+    s[i['item']] += i['amount']
 
 print(s)
