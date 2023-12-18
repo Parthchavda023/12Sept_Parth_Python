@@ -11,7 +11,7 @@ class vipul:        #2
     vbnc=''
 
     def vgetdata(self):
-        self.vid=input('Enter Parth ID:')
+        self.vid=input('Enter vipul ID:')
         self.vbnc=input('Enter Vipul Branch:')
 
 class sanjay:       #3
@@ -39,6 +39,7 @@ class collage(parth,vipul,sanjay,mehul):
         print('-----Vipul Details-----')
         print('Vipul Id Number=',self.vid)
         print('Vipul Branch=',self.vbnc)
+        
         print('-----Sanjay Details-----')
         print('Sanjay Id Number=',self.sid)
         print('Sanjay Branch=',self.sbnc)

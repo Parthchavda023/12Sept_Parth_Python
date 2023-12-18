@@ -2,7 +2,7 @@
 
 
 fl=open('longword.txt','w')
-fl.write('Hello ...\nI am Parth Chavda\nI from Halavad')
+fl.write('Hello ...\nI am Parth Chavda\nI am from Halavad')
 
 fl=open('longword.txt','r')
 #long words

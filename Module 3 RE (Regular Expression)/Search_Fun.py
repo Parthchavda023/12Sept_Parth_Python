@@ -1,6 +1,7 @@
 import re
 
 sp="Hello, I'm Parth Chavda"
+
 # c1=re.search('Parth',sp)
 # c2=re.search('arth',sp)
 # c3=re.search('parth',sp)
@@ -9,8 +10,8 @@ sp="Hello, I'm Parth Chavda"
 # print(c3)
 
 # ------------------------
-# c=re.search('Parth',sp)
-c=re.search('parth',sp)
+c=re.search('Parth',sp)
+# c=re.search('parth',sp)
 print(c)
 
 if c:

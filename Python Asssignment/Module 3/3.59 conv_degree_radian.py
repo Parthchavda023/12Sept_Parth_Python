@@ -1,7 +1,7 @@
-'''Write a Python program to convert degree to radian.'''
-# Randian=degree*pi/180
-#        =60*3.14/180
-#        =
+'''Write a Python program to convert degree to radian.
+->Randian=degree*pi/180
+         =60*3.14/180
+         =1.0466666666     '''
 
 
 

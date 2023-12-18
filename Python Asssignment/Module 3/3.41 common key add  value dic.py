@@ -32,5 +32,5 @@ print(d2)
 sp=Counter(d1)+Counter(d2)
 print('Counter:',sp)
 
-# ps=dict(sorted(sp.items()))   #Dict ne sirt kri a-z ma print krva
-# print('Counter(sort):',ps)
+ps=dict(sorted(sp.items()))   #Dict ne sirt kri a-z ma print krva
+print('Counter(sort):',ps)

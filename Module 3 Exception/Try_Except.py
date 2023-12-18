@@ -1,8 +1,8 @@
 try:    
     a=int(input("Enter Value of A:"))
     b=int(input('Enter Value of B:'))
-    # print('Sum=',a+b)
-    print('Sum=',A+b)    # Error
+    print('Sum=',a+b)
+    # print('Sum=',A+b)    # Error
 except:
     print("Error...")
 

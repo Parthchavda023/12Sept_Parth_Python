@@ -1,6 +1,6 @@
 import re
 
-#A,Z D-d, S-s, W-w
+#A, Z, D-d, S-s, W-w
 
 sp="ParthChavda022@ gmail.COM!!!333"
 A=re.findall('\AParth',sp)   # Match only at the start of the string
@@ -15,11 +15,11 @@ print("D=",D)
 print("d=",d)
 
 S=re.findall('\S',sp)   #Not match(Ignore) Space
-s=re.findall('\s',sp)   # Match (Print) Space
+s=re.findall('\s',sp)   # Match (Print) only Space
 print("S=",S)
 print("s=",s)
 
 W=re.findall('\w',sp)   # Not match(Ignore) special character
-w=re.findall('\W',sp)   # Match(Print) Special character
+w=re.findall('\W',sp)   # Match(Print) only Special character
 print("W=",W)
 print("w=",w)

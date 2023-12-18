@@ -3,9 +3,10 @@
                     =6*5
                     =30    '''
 
-a=6
-h=5
-print("Parallelogram Area=",a*h)
+
+# a=6
+# h=5
+# print("Parallelogram Area=",a*h)
 
 
 #-----user input-----#

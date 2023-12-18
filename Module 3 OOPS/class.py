@@ -1,4 +1,4 @@
-class myclass:
+class myclass:  #create class
     id=101
     nm='Parth'
 
@@ -10,8 +10,9 @@ class myclass:
     def getinfo(self):
         id=input('Enter Id:')
         nm=input('Enter Name:')
+        
 
-sp=myclass()
+sp=myclass()    #Object of class
 print('Id:',sp.id)
 print('Name:',sp.nm)
 sp.info()

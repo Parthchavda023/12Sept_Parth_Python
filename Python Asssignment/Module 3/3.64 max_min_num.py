@@ -28,12 +28,12 @@ for i in range(n):
     p.append(s)
 
 print(p)
-#-----with sort()
+print('#-----with sort()----#')
 p.sort()
 print(p)
 print('Min. number:',p[0])
 print('Max number:',p[-1])
-
-#----max,min function
+#----------------------------------#
+print('#----max,min function-----#')
 print('Min. Number=',min(p))
 print('Max Number=',max(p))

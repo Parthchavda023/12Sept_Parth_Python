@@ -1,6 +1,7 @@
 import tkinter
 from tkinter import ttk,messagebox # For district & messagebox
 
+# Display Screen
 scr=tkinter.Tk()
 scr.geometry("1000x1000")
 scr.config(bg='lightyellow')
@@ -39,9 +40,11 @@ disctrict=['Ahemdabad','Rajkot','Morbi','Baroda','Surat']
 ttk.Combobox(values=disctrict,state='readonly').grid(row=4,column=0)
 
 # submit button command
-def click():
+
+def click():        # call fun in submit button command
+
     #submit button command
-    print("Your information has been submit successfully.")
+    # print("Your information has been submit successfully.")
     
     #print Firstname & lastname
     # print("First Name:-",fnm.get())
@@ -62,11 +65,8 @@ def click():
     # messagebox.askyesnocancel("Yes-No-Cancel","What do you want to do?")
 
 
-
-
 # submit button
 tkinter.Button(text='Submit',command=click).place(x='450',y='350')
-
 
 # call your info
 tkinter.mainloop()

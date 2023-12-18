@@ -1,4 +1,4 @@
-  '''Write a Python program to find the highest 3 values in a dictionary.'''
+'''Write a Python program to find the highest 3 values in a dictionary.'''
 
 
 # p={'a':100,'c':200,'e':300,'b':400,'f':500,'h':200,'j':100}

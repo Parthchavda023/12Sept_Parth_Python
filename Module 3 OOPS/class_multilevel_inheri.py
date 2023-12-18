@@ -9,7 +9,7 @@ class b(a):
     bid=0
     bnm=''
     def b_getdata(self):
-        self.bid=input('Enter b id:')
+        self.bid=input('Enter B id:')
         self.bnm=input('Enter B Name:')
 
 class c(b):
@@ -17,7 +17,7 @@ class c(b):
     cnm=''
     def c_getdata(self):
         self.cid=input('Enter C id:')
-        self.cnm=input('Enter B Name:')
+        self.cnm=input('Enter C Name:')
 
 class d(c):
     def printdata(self):

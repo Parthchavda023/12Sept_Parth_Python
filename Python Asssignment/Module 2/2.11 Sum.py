@@ -13,7 +13,6 @@ for i in range(1,p+1):
 print("Sum is=",sum)
 
 
-
 # -------------------------------#
 # p=int(input("Enter Number:"))
 # sum=(p*(p+1))/2

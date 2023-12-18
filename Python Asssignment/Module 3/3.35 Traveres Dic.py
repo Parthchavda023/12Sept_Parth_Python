@@ -1,6 +1,9 @@
 '''How Do You Traverse Through A Dictionary Object In Python?
+-->we can use the loop with items() method to retrieve the key-value 
+pairs of the dictionary object.
+
 like:
-#inpt:
+#input:
 {'id':101,'nm':'Parth','sub':'Python'}
 
 #output
@@ -8,6 +11,7 @@ id-101
 nm-Parth
 sub-Python
 '''
+
 
 # p={'id':101,'nm':'Parth','sub':'Python'}
 

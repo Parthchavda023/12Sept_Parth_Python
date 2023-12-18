@@ -8,13 +8,13 @@ Name=['Parth'.'Sanjay','Vipul']
 '''
 
 
-p=[(101,'Parth'),(102,'Sanjay'),(103,'Vipul')]
+# p=[(101,'Parth'),(102,'Sanjay'),(103,'Vipul')]
 
-print(p)
+# print(p)
 
-id,nm=zip(*p)
-print("Id=",id)
-print("Name",nm)
+# id,nm=zip(*p)
+# print("Id=",id)
+# print("Name",nm)
 
 #-----Using Input-----#
 

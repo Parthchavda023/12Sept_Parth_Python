@@ -1,4 +1,4 @@
-#----- import file using ------#
+#----- import file using type:1 ------#
 
 import newcollaction
 newcollaction.info(101,'Parth')

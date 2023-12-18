@@ -1,8 +1,8 @@
 '''Write a Python script to check if a given key already exists in a dictionary.
 like:
-{'Id':101,'nm':'Parth','sub':'Python'} #items
+{'Id':101,'nm':'Parth','sub':'Python'}  #items
 Id,nm,sub   #key
-values=101,Parth,Python
+101,Parth,Python    #values
 '''
 
 

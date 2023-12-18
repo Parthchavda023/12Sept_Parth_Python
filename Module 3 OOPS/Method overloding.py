@@ -1,3 +1,4 @@
+#python does not supperted overloding method
 class info:
     def Getdata(self,id,nm):
         print('id=',id)

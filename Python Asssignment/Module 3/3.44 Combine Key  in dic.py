@@ -12,4 +12,3 @@ print(p)
 for i in p['1']:
     for j in p['2']:
         print(i+j,end=' ')
-

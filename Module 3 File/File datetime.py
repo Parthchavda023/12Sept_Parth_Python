@@ -1,6 +1,6 @@
 import datetime
 
-fl=open('Datetime.txt','w')
+fl=open('Datetime.txt','a')
 
 n=int(input('Enter Number of Range:'))
 for i in range(n):
